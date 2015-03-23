@@ -27,6 +27,9 @@ A: Before the Voter goes to the Registrar, their client software has guided them
 
 When the Voter returns home from the Registrar, they “unblind” the signature made by the Registrar which yields a signature of their “unblinded” public key.  They can present this signature as proof that their public key belongs to an eligible Voter.
 
+Q: What does "key blinding" mean / how does it work?
+A:
+
 Q: How do you guarantee anonymity of vote and verifiability at the same time?
 A: The Voter only needs to reveal her or his identity to the Registrar, once per year at the time of signing the Voter’s blinded public key.  The blinding guarantees that even the Registrar can’t associate the person with his or her voting.
 
